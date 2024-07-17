@@ -1,0 +1,30 @@
+/* Inter font link */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+/* Shared styles start */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
+/* Shared styles end */
+
+/* ==================================== */
+
+/* Header section start */
+/* Header section end */
+
+/* ==================================== */
+
+/* Main section start  */
+/* Main section end */
+
+/* ==================================== */
+
+/* Footer section start */
+/* Footer section end */
