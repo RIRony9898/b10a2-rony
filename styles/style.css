@@ -29,13 +29,31 @@ body {
 .flex {
   display: flex;
 }
+
+.section-title {
+  color: rgb(255, 255, 255);
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 120%;
+  text-align: center;
+}
+
+.section-description {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  text-align: center;
+}
 /* Shared styles end */
 
 /* ==================================== */
 
 /* Header section start */
 
-header {
+header,
+main {
   background: black;
 }
 
@@ -80,8 +98,8 @@ header {
 }
 
 .hamburger-menu {
-    color: white;
-    display: none;
+  color: white;
+  display: none;
 }
 /* NavBar section end */
 
@@ -174,7 +192,7 @@ header {
 }
 
 .btn-500 h3 {
-    margin-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .btn-350 {
@@ -192,6 +210,54 @@ header {
 /* ==================================== */
 
 /* Main section start  */
+
+/* Change habits section start */
+.change-habits-container {
+  border: 2px solid red;
+  padding-top: 6.25rem;
+}
+.change-habits > h2 {
+  margin-bottom: 1rem;
+}
+.change-habits > p {
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+/* .hr {
+  background-color: rgb(230, 83, 60);
+  border-top: 1px solid #fffafa;
+  width: ;
+} */
+.habits {
+  border: 2px solid green;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.habit-name {
+  color: rgb(255, 255, 255);
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 120%;
+  text-align: center;
+}
+.habit-description {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.8rem;
+  font-weight: 400;
+  line-height: 18px;                          
+  letter-spacing: 0.3px;
+  text-align: center;
+}
+.habit {
+  border: 2px solid violet;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* Change habits section end */
+
+/* ---------------------------------------- */
 /* Main section end */
 
 /* ==================================== */
