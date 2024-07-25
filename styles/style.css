@@ -58,14 +58,14 @@ main {
 }
 
 /* NavBar section start */
-.nav-container {
+/* .nav-container {
   border: 2px solid red;
-}
+} */
 
 .nav {
   justify-content: space-between;
   align-items: center;
-  margin-top: 57px;
+  padding-top: 57px;
 }
 
 .nav-menu {
@@ -107,18 +107,18 @@ main {
 
 /* Banner section start */
 .banner-container {
-  border: 2px solid green;
+  /* border: 2px solid green; */
   margin-top: 2rem;
 }
 
 .banner-texts {
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   width: 50%;
   align-items: center;
 }
 
 .banner-img {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   width: 50%;
   justify-content: end;
   position: relative;
@@ -139,10 +139,10 @@ main {
 }
 
 .btn-container {
-  border: 2px solid red;
-  /* margin: 0 auto; */
+  /* border: 2px solid red; */
   justify-content: center;
   gap: 14px;
+  padding-right: 50px;
 }
 
 .banner-btn {
@@ -213,7 +213,7 @@ main {
 
 /* Change habits section start */
 .change-habits-container {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   padding-top: 6.25rem;
 }
 .change-habits > h2 {
@@ -229,7 +229,7 @@ main {
   width: ;
 } */
 .habits {
-  border: 2px solid green;
+  /* border: 2px solid green; */
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
@@ -249,11 +249,26 @@ main {
   text-align: center;
 }
 .habit {
-  border: 2px solid violet;
+  /* border: 2px solid violet; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.habit-img {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 80%;
+  height: auto;
+  /* border: 2px solid green; */
+  place-items: center;
+}
+
+.habit-img img {
+  border-radius: 50%;
+  /* border: 2px solid red; */
 }
 /* Change habits section end */
 

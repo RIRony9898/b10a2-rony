@@ -14,6 +14,9 @@
     margin-top: 20px;
     justify-content: center;
   }
+  .btn-container {
+    padding-right: 0px;
+  }
   .btn-500 {
     right: 150px;
     top: 50px;
@@ -21,6 +24,12 @@
   .btn-350 {
     bottom: 250px;
     left: 140px; 
+  }
+  .habits {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .habit-img {
+    margin-bottom: 2.2rem;
   }
 }
 
@@ -42,5 +51,8 @@
   .btn-350 {
     bottom: 250px;
     left: 40px;
+  }
+  .habits {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
