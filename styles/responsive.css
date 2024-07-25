@@ -31,6 +31,16 @@
   .habit-img {
     margin-bottom: 2.2rem;
   }
+  .extra-miles-container {
+    margin-top: 5.25rem;
+  }
+  .extra-miles {
+    gap: 0rem;
+    justify-content: space-between;
+  }
+  .extra-miles-contents > button {
+    width: 85%;
+  }
 }
 
 /* Small device */
@@ -54,5 +64,24 @@
   }
   .habits {
     grid-template-columns: repeat(1, 1fr);
+  }
+  .extra-miles {
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: space-between;
+    padding: 2rem;
+  }
+  .extra-miles-contents {
+    width: 100%;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    place-items: center;
+  }
+  .extra-miles-contents > button {
+    width: 90%;
+  }
+  .extra-miles-img{
+    width: 100%;
   }
 }
