@@ -23,7 +23,7 @@
   }
   .btn-350 {
     bottom: 250px;
-    left: 140px; 
+    left: 140px;
   }
   .habits {
     grid-template-columns: repeat(2, 1fr);
@@ -40,6 +40,9 @@
   }
   .extra-miles-contents > button {
     width: 85%;
+  }
+  .team-members {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
@@ -81,7 +84,10 @@
   .extra-miles-contents > button {
     width: 90%;
   }
-  .extra-miles-img{
+  .extra-miles-img {
     width: 100%;
+  }
+  .team-members {
+    grid-template-columns: repeat(1, 1fr);
   }
 }

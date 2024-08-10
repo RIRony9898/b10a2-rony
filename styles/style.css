@@ -332,6 +332,44 @@ main {
 /* ------------------------------------------ */
 
 /* Team section start */
+.meet-team {
+  padding-top: 88px;
+  padding-bottom: 88px;
+}
+.meet-team .section-title {
+  margin-bottom: 14px;
+}
+.meet-team .section-description {
+  margin-bottom: 70px;
+}
+.team-member {
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index: 2;
+}
+.team-member-name-container {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  color: white;
+}
+.team-members {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 18px;
+background: rgba(255, 255, 255, 0.1);
+padding: 20px;
+}
+.team-member img {
+  width: 326px;
+  height: 272px;
+  border-radius: 18px;
+  
+  
+}
 /* Team section end */
 
 /* Main section end */
@@ -339,4 +377,7 @@ main {
 /* ==================================== */
 
 /* Footer section start */
+footer {
+  background: rgba(255, 255, 255, 0.1);
+}
 /* Footer section end */
