@@ -219,15 +219,15 @@ main {
 .change-habits > h2 {
   margin-bottom: 1rem;
 }
+/* .hr {
+  background-color: rgb(230, 83, 60);
+  border-top: 1px solid #fffafa;
+  width: 100%;
+} */
 .change-habits > p {
   margin-top: 1rem;
   margin-bottom: 3rem;
 }
-/* .hr {
-  background-color: rgb(230, 83, 60);
-  border-top: 1px solid #fffafa;
-  width: ;
-} */
 .habits {
   /* border: 2px solid green; */
   display: grid;
@@ -327,6 +327,63 @@ main {
 /* ------------------------------------------ */
 
 /* BMI Calculator section start */
+.bmi-calc {
+  margin-top: 4rem;
+}
+.bmi-calc-section {
+  background: #1a1a1a;
+  margin-top: 5rem;
+}
+.bmi-calc-container {
+  justify-content: space-between;
+  gap: 10rem;
+  padding: 3rem 0;
+}
+.section-sub-title {
+  color: white;
+  font-size: 28px;
+  font-weight: 900;
+  margin-bottom: 2rem;
+}
+table {
+  color: rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-collapse: collapse;
+  text-align: center;
+}
+table th, td {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  padding: 15px 20px;
+}
+th {
+  color: white;
+}
+.bmi-calc-left {
+  width: 40%;
+}
+.bmi-calc-right {
+  width: 60%;
+}
+
+.bmi-calc-right > .section-description {
+  text-align: left;
+  margin-bottom: 2rem;
+}
+.bmi-calc-right  input, select {
+  background: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.6);
+  border: none;
+  padding: 12px 20px;
+  margin-bottom: 12px;
+  width: 100%;
+  border-radius: 0.5rem;
+}
+.bmi-calc-right .flex {
+  gap: 12px;
+}
+.bmi-calc-right .option {
+  color: rgba(255, 255, 255, 0.6);
+}
 /* BMI Calculator section end */
 
 /* ------------------------------------------ */

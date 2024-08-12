@@ -87,6 +87,20 @@
   .extra-miles-img {
     width: 100%;
   }
+  .bmi-calc-container {
+    flex-direction: column;
+    gap: 2rem;
+    padding: 3rem 1rem;
+  }
+  .bmi-calc-left {
+    width: 100%;
+  }
+  .bmi-calc-left table {
+    width: 100%;
+  }
+  .bmi-calc-right {
+    width: 100%;
+  }
   .team-members {
     grid-template-columns: repeat(1, 1fr);
   }
