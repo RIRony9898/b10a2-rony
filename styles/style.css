@@ -429,6 +429,46 @@ padding: 20px;
 }
 /* Team section end */
 
+/* ------------------------ */
+
+/* Join us section start */
+
+.join-us-container {
+  background: #1a1a1a;
+  padding: 5rem 0;
+}
+.join-us > .section-description {
+  margin: 2rem 0;
+}
+.membership-form-container {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.membership-form {
+  padding: 2rem;
+}
+.membership-form > legend {
+  text-align: center;
+}
+
+
+.membership-form .input-box {
+  background: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.6);
+  border: none;
+  display: block;
+  padding: 12px 20px;
+  margin-bottom: 12px;
+  width: 100%;
+  border-radius: 0.5rem;
+}
+.membership-form .join-us-btn {
+  text-align: center;
+}
+
+/* Join us section end */
+
 /* Main section end */
 
 /* ==================================== */
