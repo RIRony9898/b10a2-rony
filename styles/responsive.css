@@ -87,6 +87,12 @@
   .extra-miles-img {
     width: 100%;
   }
+  .exercise-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+ .exercise-container .exercise-title {
+    bottom: 1rem;
+  }
   .bmi-calc-container {
     flex-direction: column;
     gap: 2rem;
